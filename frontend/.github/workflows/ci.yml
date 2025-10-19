@@ -1,0 +1,33 @@
+name: Lint & Test Vue.js Project
+
+on:
+  push:
+    branches:
+      - frontend
+
+jobs:
+  lint_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '22'  # Specify the version of Node.js
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Run Linting (e.g., ESLint)
+      - name: Run linting
+        run: npm run lint  # Assumes you have a lint script in package.json
+
+      # Step 5: Run Unit Tests (e.g., using Jest)
+      - name: Run tests
+        run: npm run test:unit
