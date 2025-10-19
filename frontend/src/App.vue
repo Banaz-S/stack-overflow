@@ -1,10 +1,8 @@
 <script setup>
+import DefaultLayout from '@/components/layouts/DefaultLayout.vue'
 </script>
 
 <template>
-  <router-view />
+  <Component :is="$route.meta.layout ? $route.meta.layout : DefaultLayout" />
 </template>
 
-<style scoped>
-/* Optional basic styling */
-</style>
