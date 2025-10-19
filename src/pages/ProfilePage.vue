@@ -1,7 +1,5 @@
 <script setup></script>
 
-<template>
-  profile
-</template>
+<template>profile</template>
 
 <style default></style>

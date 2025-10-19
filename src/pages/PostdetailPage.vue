@@ -1,7 +1,5 @@
 <script setup></script>
 
-<template>
-add post
-</template>
+<template>Post Detail view</template>
 
 <style scoped></style>
