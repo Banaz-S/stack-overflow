@@ -21,7 +21,25 @@ const routes = [
     meta:{
       layout: SimpleLayout
     }
-  }
+  },
+   {
+    path: '/addpost',
+    name: 'Addpost',
+    component: Addpost,
+    meta:{
+      layout:DefaultLayout
+    }
+  },
+   {
+    path: '/profile',
+    name: 'Profile',
+    component: profile,
+    meta:{
+      layout:DefaultLayout
+    }
+  },
+  
+  
 ]
 
 const router = createRouter({
