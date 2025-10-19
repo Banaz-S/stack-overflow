@@ -14,23 +14,14 @@ const routes = [
     //   layout: DefaultLayout,
     // }
   },
-   {
-    path: '/signup',
-    name: 'Signup',
-    component: Signup,
-    meta:{
-      layout: SimpleLayout
-    }
-  },
   {
     path: '/login',
     name: 'Login',
     component: Login,
     meta:{
       layout: SimpleLayout
-    }
-  },
-   {
+    },
+    {
     path: '/addpost',
     name: 'Addpost',
     component: Addpost,
@@ -54,8 +45,7 @@ const routes = [
       layout: DefaultLayout
     }
   },
-  
-  
+  }
 ]
 
 const router = createRouter({
