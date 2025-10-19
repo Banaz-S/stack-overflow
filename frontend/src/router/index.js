@@ -14,6 +14,14 @@ const routes = [
     //   layout: DefaultLayout,
     // }
   },
+   {
+    path: '/signup',
+    name: 'Siignup',
+    component: Signup,
+    meta:{
+      layout: SimpleLayout
+    }
+  },
   {
     path: '/login',
     name: 'Login',
