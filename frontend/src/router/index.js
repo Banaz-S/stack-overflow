@@ -16,7 +16,7 @@ const routes = [
   },
    {
     path: '/signup',
-    name: 'S  ignup',
+    name: 'Signup',
     component: Signup,
     meta:{
       layout: SimpleLayout
