@@ -8,15 +8,15 @@
       Hello from header navigation
     </nav>
     <div class="flex items-center gap-4">
-      <RouterLink to="/" class="nav-link">Action 1</RouterLink>
-      <RouterLink to="/" class="nav-link">Action 2</RouterLink>
+      <RouterLink to="/login" class="nav-link">Login</RouterLink>
+      <RouterLink :to="{name: 'Signup'}" class="nav-link">Signup</RouterLink>
     </div>
   </header>
 </template>
 
 <style scoped>
 @reference "tailwindcss";
-.nav-link{
+.nav-link {
   @apply px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700
 }
 </style>

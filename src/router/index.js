@@ -3,6 +3,7 @@ import Home from '../pages/Home.vue'
 import DefaultLayout from '@/components/layouts/DefaultLayout.vue'
 import Login from '@/pages/Login.vue'
 import SimpleLayout from '@/components/layouts/SimpleLayout.vue'
+import Signup from "@/pages/Signup.vue";
 
 const routes = [
   {
@@ -21,7 +22,15 @@ const routes = [
     meta:{
       layout: SimpleLayout
     }
-  }
+  },
+    {
+        path: '/signup',
+        name: 'Signup',
+        component: Signup,
+        meta:{
+            layout: SimpleLayout
+        }
+    }
 ]
 
 const router = createRouter({

@@ -1,7 +1,8 @@
 <script setup></script>
 
 <template>
-  Signup
+    Signup page with SimpleLayout
+
 </template>
 
 <style scoped></style>
