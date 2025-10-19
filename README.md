@@ -17,7 +17,6 @@ It aims to help students, developers, and professionals exchange knowledge in a 
 ## 🏆 Success Criteria
 - Users can browse, post, and answer questions easily  
 - A simple UI with clear categories  
-- Real-time data updates without refresh (using Vue reactivity)  
 - Backend correctly handles user posts and votes  
 - Frontend and backend integrated seamlessly
 
@@ -26,11 +25,11 @@ It aims to help students, developers, and professionals exchange knowledge in a 
 ## 🚫 Non-Goals
 - Advanced moderation or reputation system  
 - Notifications or email features  
-- AI answer suggestions (future goal)
+- AI answer suggestions
 
 ---
 
-## 🧑‍💻 User Stories (6–10 Examples)
+## 🧑‍💻 User Stories
 
 1. As a user, I can view a list of all questions on the homepage.  
 2. As a user, I can click a question to see its full content and all answers.  
@@ -41,14 +40,6 @@ It aims to help students, developers, and professionals exchange knowledge in a 
 7. As a user, I can filter questions by tags (e.g., JavaScript, Flutter, Database).  
 8. As a user, I can navigate between Home, Ask Question, and Profile easily.  
 9. As a user, I can view basic statistics like total questions and answers posted.
-
----
-
-## 🧭 Low-Fidelity Wireframes (to be uploaded)
-- **Home Page** – list of recent questions  
-- **Ask Question Page** – form for adding new question    
-
-📁 These are uploaded to the `/design/wireframes`.
 
 ---
 
@@ -71,15 +62,6 @@ It aims to help students, developers, and professionals exchange knowledge in a 
 GitHub Actions workflow will:
 1. Run ESLint for linting  
 2. Run Prettier for formatting check  
-3. Run unit tests (Vitest) before allowing merge  
-
----
-
-## 🧩 Contributors
-| Role | Name | Responsibilities |
-|------|------|------------------|
-| Backend Developers | [Aso Affan], [Ashty Hamid] | API, Database |
-| Frontend Developer | [Banaz Sleman] | Vue 3, UI Layout, Components |
-| Designers | [Yakboon Jawad], [Soma Ali] | Wireframes, Figma |
+3. Run unit tests (Vitest) before allowing merge
 
 ---
