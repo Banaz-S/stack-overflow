@@ -14,6 +14,14 @@ const routes = [
     //   layout: DefaultLayout,
     // }
   },
+   {
+    path: '/signup',
+    name: 'Signup',
+    component: Signup,
+    meta:{
+      layout: SimpleLayout
+    }
+  },
   {
     path: '/login',
     name: 'Login',
@@ -36,6 +44,14 @@ const routes = [
     component: profile,
     meta:{
       layout:DefaultLayout
+    }
+  },
+   {
+    path: '/postdetail',
+    name: 'Postdetail',
+    component: Postdetail,
+    meta:{
+      layout: DefaultLayout
     }
   },
   
